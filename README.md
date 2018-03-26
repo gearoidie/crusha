@@ -28,6 +28,8 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     app.UseUploadServer();
 }
 ```
+
+When you run your server, post your files to this endpoint ` /uploadFiles `
 ## ToDo
 
 - [ ] Create Test Files / Project

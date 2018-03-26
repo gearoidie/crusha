@@ -21,7 +21,6 @@ namespace Crusha.Core
         {
             bool processRequest = context.Request.Path.Equals("/uploadfiles", StringComparison.CurrentCultureIgnoreCase);
             if (processRequest && 
-                context.Request.Headers.ContainsKey("fileName") && 
                 context.Request.ContentLength > 0)
             {
                 return ProcessForm(context);

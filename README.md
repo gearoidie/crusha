@@ -34,6 +34,6 @@ When you run your server, post your files to this endpoint ` /uploadFiles `
 
 - [ ] Create Test Files / Project
 - [ ] Create nuget package
-- [ ] Add CI/CD server
+- [x] Add CI/CD server
 - [ ] Add error handling
 - [ ] Publish to nuget.org
